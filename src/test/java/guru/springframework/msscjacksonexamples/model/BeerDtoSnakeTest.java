@@ -8,6 +8,7 @@ import org.springframework.boot.test.autoconfigure.json.JsonTest;
 import org.springframework.test.context.ActiveProfiles;
 
 /**
+ * the JsonTest attribute registers all JSON relevant components.
  * by using the active profiles annotation, spring will look for a file named
  * application-{name of profile}.properties, i.e. application-snake.properties.
  */
